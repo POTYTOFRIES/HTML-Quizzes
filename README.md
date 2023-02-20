@@ -1,3 +1,3 @@
 # HTML-Quizzes
 
-HTML Exercises
+HTML Exercises with a little bit of CSS
