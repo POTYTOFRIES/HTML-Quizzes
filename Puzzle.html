@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <style>
+        .a, .b, .c {
+            text-align: center;
+        }
+
+        .d {
+            height: 45px;
+        }
+        table {
+            border-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <table border="4" align="center" width="300" height="200"> 
+        <tr class="a">
+            <td colspan="4">TOP</td>
+        </tr>
+
+        <tr class="b">
+            <td rowspan="2">way left</td>
+            <td colspan="2">middle up</td>
+            <td rowspan="2">way right</td>
+        </tr> 
+
+        <tr class="c">
+            <td>middle down</td>
+        </tr>
+
+        <tr class="d">
+            <td colspan="4"></td>
+        </tr>
+        
+    </table>
+</body>
+</html>

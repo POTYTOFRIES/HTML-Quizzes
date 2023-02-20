@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        .name {
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+        .dept {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        .about {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .yn {
+            margin-left: 100px;
+            margin-bottom: 20px;
+        }
+        
+        .topics {
+            margin-left: 80px;
+            margin-bottom: 10px
+        }
+        .cb {
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .movies {
+            margin-left: 90px; 
+            margin-bottom: 20px;
+        }
+        .submit {
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h5>Survey Form</h5>
+        <div>
+            <h1 class="title">Employee Interest Survey Form</h1>
+
+            <form>
+                <div class="name">
+                    <label for="fname">
+                    Enter your name:
+                    </label>
+                    <input type="text" id="fname"name="fname" value="" size="33">
+                </div>
+                
+                <div class="dept">
+                    <label for="department">
+                    Enter your department:
+                    </label>
+                    <input type="text" id="department" name="department" value="" size="34">
+                </div>
+                
+                <div class="about">
+                    <label>
+                        Tell us a little about yourself:
+                    </label>
+                    <textarea name="message" rows="5" cols="30">
+                    </textarea>     
+                </div>
+
+                <div class="yn">
+                    <label>
+                    Do you exercise at home?
+                    </label>
+                    <input type="radio"
+                    id="yes"
+                    name="exercise"
+                    value="Yes">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio"
+                    id="no"
+                    name="exercise"
+                    value="No">
+                    <label for="no">No</label><br>
+                </div>
+
+                <div class="topics">
+                    <label>
+                        How do you like to read about your favorite topics?<br>
+                    </label>
+                </div>
+                <div class="cb">
+                    <input type="checkbox" id="one" name="one" value="book">
+                    <label for="one">Books</label>
+                    <input type="checkbox" id="two" name="two" value="onlineresources">
+                    <label for="two">Online resources</label>
+                    <input type="checkbox" id="three" name="three" value="phone">
+                    <label for="three">Phone apps</label>
+                    <input type="checkbox" id="four" name="four" value="magazine">
+                    <label for="four">Magazines</label>
+                </div>
+                
+                <div class="movies">
+                    <label for="genre">What genre of movies do you like?</label>
+                    <select id="genre" name="genre" size="1">
+                    <option value="comedy">Comedy</option>
+                    </select>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit Form">
+                </div>
+
+            </form>
+                    
+        </div> 
+    </div>
+</body>
+</html>

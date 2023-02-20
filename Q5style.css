@@ -1,0 +1,27 @@
+.letter
+{
+  box-sizing: border-box;
+  width: 1fr;
+  height: 300px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.sender
+{
+  display: block;
+}
+
+.recipient
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+  
+}
+
+p {
+  margin: 0;
+  font-style: italic;
+}

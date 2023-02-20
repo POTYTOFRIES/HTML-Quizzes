@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acronyms</title>
+  <style>
+     .boss, .diet, .fail 
+     {
+        border: none;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        padding-left: 0;
+        margin-bottom: 50px;
+        text-align: left; 
+        cursor: pointer;
+      }
+      .pboss, .pdiet, .pfail 
+      {
+        opacity: 0;
+        color: white;
+        background-color: rgb(52, 51, 51);
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 5px;
+        pointer-events: none;
+        position:absolute 
+      }
+
+      .boss:hover .pboss, .diet:hover .pdiet, .fail:hover .pfail
+      {
+        opacity: 1;  
+      }
+  </style>
+</head>
+
+<body>
+  <div>
+    <button class="boss">BOSS
+        <div class="pboss">- Barking Orders So Snidely</div>
+    </button>
+    
+    <button class="diet">DIET
+        <div class="pdiet">- Do I Eat Today?</div>
+    </button>
+
+    <button class="fail">FAIL
+        <div class="pfail">- Forget About It, Loser</div>
+    </button>
+</div>
+</body>
+</html>
